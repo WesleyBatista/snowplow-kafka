@@ -1,0 +1,5 @@
+events_output.json
+docker-compose.yaml
+.venv
+__pycache__
+.DS_Store
