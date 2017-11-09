@@ -37,7 +37,7 @@ services:
             APPLICATION_SECRET: letmein
             KM_ARGS: -Djava.net.preferIPv4Stack=true
     snowplow_collector:
-        image: kafkasp:1
+        image: kafkasp:latest
         ports:
             - '8081:8081'
         links:
